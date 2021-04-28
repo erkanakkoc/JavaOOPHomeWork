@@ -24,7 +24,7 @@ public class Main {
 		Instructor[] instructors = { instructor1, instructor2, instructor3 };
 
 		System.out.println();
-		System.out.println("INSTRUCTOR");
+		System.out.println("INSTRUCTORS");
 		System.out.println("--------");
 		for (Instructor instructor : instructors) {
 			System.out.println(" - Instructor Id: " + instructor.id + " | Instructor: " + instructor.firstName + " " + instructor.lastName);
